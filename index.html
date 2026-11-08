@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name | Frontend Developer</title>
+<meta name="description" content="Portfolio of Your Name, frontend developer.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo">YourName</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div>
+    <p class="hello">Hi, I'm</p>
+    <h1>Your Name</h1>
+    <p class="role">I build clean, responsive websites.</p>
+    <a href="#projects" class="btn">See my projects</a>
+    <a href="#contact" class="btn ghost">Contact me</a>
+  </div>
+</section>
+
+<section id="about" class="section reveal">
+  <h2>About me</h2>
+  <p>I'm a student learning frontend development with HTML, CSS and JavaScript. I enjoy turning ideas into simple, usable web pages. Replace this text with a short story about you, your college and what you want to learn next.</p>
+</section>
+
+<section id="skills" class="section reveal">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill"><span>HTML</span><div class="bar"><i style="--w:90%"></i></div></div>
+    <div class="skill"><span>CSS</span><div class="bar"><i style="--w:85%"></i></div></div>
+    <div class="skill"><span>JavaScript</span><div class="bar"><i style="--w:75%"></i></div></div>
+    <div class="skill"><span>Git &amp; GitHub</span><div class="bar"><i style="--w:70%"></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Image Gallery</h3>
+      <p>Responsive gallery with category filters and a lightbox.</p>
+      <a href="https://github.com/YOUR-USERNAME/CodeAlpha_ImageGallery" target="_blank" rel="noopener">View code</a>
+    </article>
+    <article class="card">
+      <h3>Calculator</h3>
+      <p>Calculator with keyboard support and clean display.</p>
+      <a href="https://github.com/YOUR-USERNAME/CodeAlpha_Calculator" target="_blank" rel="noopener">View code</a>
+    </article>
+    <article class="card">
+      <h3>Portfolio Site</h3>
+      <p>This site, built with HTML, CSS and JavaScript.</p>
+      <a href="https://github.com/YOUR-USERNAME/CodeAlpha_Portfolio" target="_blank" rel="noopener">View code</a>
+    </article>
+  </div>
+</section>
+
+<section id="resume" class="section reveal">
+  <h2>Resume</h2>
+  <p>Download my resume to see my education and experience.</p>
+  <!-- Put your file next to index.html and name it resume.pdf -->
+  <a class="btn" href="resume.pdf" download>Download resume</a>
+</section>
+
+<section id="contact" class="section reveal">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  <p>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">linkedin.com/in/YOUR-PROFILE</a></p>
+</section>
+
+<footer>&copy; <span id="year"></span> Your Name</footer>
+<script src="script.js"></script>
+</body>
+</html>
